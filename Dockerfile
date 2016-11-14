@@ -12,5 +12,5 @@ RUN apk add --no-cache \
         && cd /jinja/docs \
         && make html \
         && rm -rf /usr/local/apache2/htdocs \
-        && ln -s /jinja/doc/_build/html /usr/local/apache2/htdocs
+        && ln -s /jinja/docs/_build/html /usr/local/apache2/htdocs
 
