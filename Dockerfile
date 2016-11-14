@@ -9,7 +9,7 @@ RUN apk add --no-cache \
         && pip install sphinx \
         && cd / \
         && git clone https://github.com/pallets/jinja \
-        && cd /jinja/doc \
+        && cd /jinja/docs \
         && make html \
         && rm -rf /usr/local/apache2/htdocs \
         && ln -s /jinja/doc/_build/html /usr/local/apache2/htdocs
