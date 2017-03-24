@@ -1,6 +1,6 @@
 # dockerized-docs-jinja
 
-# What is it?#
+# What is it? #
 Dockerzied Jinja documentation for offline use.
 
 # Image description #
