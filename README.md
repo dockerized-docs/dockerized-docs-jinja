@@ -4,9 +4,8 @@
 Dockerzied Jinja documentation for offline use.
 
 # Image description #
-- Base image: `httpd:2.4.23-alpine`
+- Base image: `centos/httpd-24-centos7`
 - The most current jinja `master` branch is cloned and built using Sphinx documentation generator
-- Jinja documentation directory (`/jinja/doc/_build/html`) is linked to httpd `DocumentRoot` (`/usr/local/apache2/htdocs`)
 
 # How to use this image #
 
@@ -14,4 +13,4 @@ Dockerzied Jinja documentation for offline use.
 $ docker run -d genadipost/dockerized-docs-jinja
 ```
 
-You can test it by visiting http://container-ip:80
+You can test it by visiting http://container-ip:8080
