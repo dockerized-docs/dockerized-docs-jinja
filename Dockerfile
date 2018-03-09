@@ -1,7 +1,7 @@
 FROM centos/httpd-24-centos7
 
 ENV SUMMARY="Jinja Documentation" \
-    DESCRIPTION="Jinja Documention as it seen in http://jinja.pocoo.org/docs/. \
+    DESCRIPTION="Jinja Documentation as it seen in http://jinja.pocoo.org/docs/. \
 The image is based on centos/httpd-24-centos7 to run unprivileged httpd container."
 
 LABEL summary="$SUMMARY" \
